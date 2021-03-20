@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Affiche les lettres utilisées en haut à gauche-->
+    <TextView
+        android:id="@+id/tvListeLettres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:textSize="18sp"/>
+
+    <!-- Affiche le panda en train de se pendre-->
+    <ImageView
+        android:id="@+id/ivPendu"
+        android:layout_width="195dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pendu1"/>
+
+    <!-- Affiche les lettres du mot-->
+    <LinearLayout
+        android:id="@+id/wordContainer"
+        android:layout_below="@+id/ivPendu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <!-- Affiche la lettre à taper et le bouton d'envoi-->
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wordContainer"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <!-- Affiche la lettre à taper-->
+        <EditText
+            android:id="@+id/etLetter"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:maxLength="1" />
+
+        <!-- Affiche le bouton d'envoi-->
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="@string/test"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvEnigme"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/container"
+        android:textAlignment="center"
+        android:textSize="24sp"/>
+</RelativeLayout>

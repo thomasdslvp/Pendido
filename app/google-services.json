@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1053422720059",
+    "project_id": "appmob-b1b4f",
+    "storage_bucket": "appmob-b1b4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053422720059:android:b63f77984a4b25ed7cf81e",
+        "android_client_info": {
+          "package_name": "com.example.myfirstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053422720059-o4hu5mle1b3ovuie0er4lam5jkhhf0p5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx_RVJEiYG5GfbGp00pcH3TohP-OLxVF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053422720059-o4hu5mle1b3ovuie0er4lam5jkhhf0p5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053422720059:android:32ee936867a347af7cf81e",
+        "android_client_info": {
+          "package_name": "com.example.pendido"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053422720059-o4hu5mle1b3ovuie0er4lam5jkhhf0p5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx_RVJEiYG5GfbGp00pcH3TohP-OLxVF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053422720059-o4hu5mle1b3ovuie0er4lam5jkhhf0p5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
